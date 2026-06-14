@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body >
+   <div id="main" class="bg-red-100 h-screen w-full flex justify-center items-center">
+    <div id="box" class="   bg-blue-100 py-5 px-10 rounded-md" >
+        <div id="progress" class = "  mt-2 w-60 bg-gray-100  rounded-full h-4">
+            <div id="growth" class="h-full w-0 bg-green-200 rounded-full overflow-hidden"></div>
+        </div>
+        <div class="flex justify-end mt-5 text-black">
+            <h5 id="percent">0%</h5>
+        </div>
+      <div class="mt-4 flex justify-between">
+        <h3>song.mp3</h3>
+        <button class=" px-7 py-3 bg-green-300 flex justify-end text-white rounded-md active:scale-95">Download</button>
+      </div>
+    </div>
+   </div>
+   <script src="webapi.js"></script>
+</body>
+</html>

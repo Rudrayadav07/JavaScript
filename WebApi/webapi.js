@@ -1,3 +1,6 @@
+//what is web api :- webapi is browser provided 
+// funcationality that javascript use to communicate with browser
+// such as DOM ,timer ,storage ,network
 // // console.log("hello javascript")
 // // setTimeout(()=>{
 // //     console.log("hello js 2")

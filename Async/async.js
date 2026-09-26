@@ -380,13 +380,22 @@ function getComments(PostId){
     })
 }
 
-getUsers().then((data)=>{
-    console.log(data);
-    return getPosts()
-}).then((titles)=>{
-    console.log(titles)
-    return getComments()
-}).then((cmts)=>{
-    console.log(cmts);
+// getUsers().then((data)=>{
+//     console.log(data);
+//     return getPosts()
+// }).then((titles)=>{
+//     console.log(titles)
+//     return getComments()
+// }).then((cmts)=>{
+//     console.log(cmts);
     
+// })
+getUsers().then((data)=>{
+    console.log(data)
+    return getPosts();
+}).then((title)=>{
+    console.log(title)
+    return getComments()
+}).then(()=>{
+    console.log("getting post");
 })
